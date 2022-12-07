@@ -4,11 +4,11 @@ import { AiOutlineLinkedin } from 'react-icons/ai'
 
 const Footer = () => {
     return (
-        <div className='divFooter'>
+        <div className='footerContainer'>
             <p>Copyright | Gianina Carranzani</p>
             <div>
-                <span className='iconFooter'> <VscGithub /> </span>
-                <span className='iconFooter'> <AiOutlineLinkedin /> </span>
+                <span className='footerIcon'> <VscGithub /> </span>
+                <span className='footerIcon'> <AiOutlineLinkedin /> </span>
             </div>
         </div>
     )

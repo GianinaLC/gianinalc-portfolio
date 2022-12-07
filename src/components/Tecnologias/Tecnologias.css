@@ -1,0 +1,33 @@
+.containerHabilidades {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.containerSkills{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    padding: 2rem;
+}
+
+.containerSkills p {
+    box-shadow: 2px 2px 2px 1px rgba(79, 241, 228, 0.2);
+    border-radius: 15%;
+    background-color:  rgba(32, 238, 176, 0.452);
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0.5rem 1rem;
+    font-size: 1.5rem;
+    
+}
+
+.containerSkills p:hover{
+    background-color:  rgba(32, 238, 176, 0.288);
+    box-shadow: 2px 2px 2px 1px rgba(5, 43, 39, 0.2);
+}

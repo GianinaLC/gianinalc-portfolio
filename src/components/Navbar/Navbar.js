@@ -2,7 +2,7 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 
-const CollapsibleExample = () => {
+const NavBar = () => {
     return (
         <Navbar collapseOnSelect expand="lg" variant="dark" sticky="top">
             <Container>
@@ -14,8 +14,8 @@ const CollapsibleExample = () => {
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="ms-auto">
                         <Nav.Link href="#inicio">Inicio</Nav.Link>
-                        <Nav.Link href="#habilidades">Habilidades</Nav.Link>
                         <Nav.Link href="#formacion">Formación</Nav.Link>
+                        <Nav.Link href="#tecnologias">Tecnologías</Nav.Link>
                         <Nav.Link href="#proyectos">Proyectos</Nav.Link>
                         <Nav.Link href="#contacto">Contacto</Nav.Link>
                     </Nav>
@@ -25,4 +25,4 @@ const CollapsibleExample = () => {
     );
 }
 
-export default CollapsibleExample;
+export default NavBar;
