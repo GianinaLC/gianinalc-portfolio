@@ -1,0 +1,11 @@
+.divFooter{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.iconFooter{
+    padding: 0 0.3rem;
+    font-size: 2rem;
+}
