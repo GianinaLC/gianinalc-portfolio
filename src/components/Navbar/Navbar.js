@@ -4,7 +4,7 @@ import Navbar from 'react-bootstrap/Navbar';
 
 const NavBar = () => {
     return (
-        <Navbar collapseOnSelect expand="lg" variant="dark" sticky="top">
+        <Navbar collapseOnSelect expand="lg" variant="dark" fixed="top" >
             <Container>
                 <Navbar.Brand href="#home">GC</Navbar.Brand>
                 {/* <Link to='/'>

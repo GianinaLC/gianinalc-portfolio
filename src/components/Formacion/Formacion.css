@@ -1,3 +1,10 @@
 .containerFormacion{
     height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.containerFormacion h2{
+    margin-top: 5rem;
 }

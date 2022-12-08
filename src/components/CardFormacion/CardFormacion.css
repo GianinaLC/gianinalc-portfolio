@@ -1,0 +1,20 @@
+.containerCards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: stretch;
+    margin: 1rem 0;
+}
+
+.cardItem {
+    background-color: #DAE1E7!important;   
+    color: #00909E;
+    text-transform: uppercase;
+}
+
+.cardItem img{
+  padding: 2rem;
+  object-fit: cover;
+  height: 200px;
+ 
+}
