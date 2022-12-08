@@ -4,6 +4,9 @@
     height: 100vh;
 }
 
+.containerHabilidades h2 {
+    margin-top: 5rem;
+}
 .containerSkills{
     display: flex;
     flex-wrap: wrap;
