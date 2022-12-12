@@ -1,12 +1,13 @@
 import './Formacion.css'
-import CardFormacion from '../CardFormacion/CardFormacion'
+import '../styles/generalStyles.css'
 import Container from 'react-bootstrap/Container';
+import FormacionCard from '../FormacionCard/FormacionCard';
 
 const Formacion = () => {
     return (
-        <Container className='containerFormacion' id='formacion'>
+        <Container className='containerGeneral' id='formacion'>
             <h2>Formación</h2>
-            <CardFormacion />
+            <FormacionCard />
         </Container>
     )
 }

@@ -1,7 +1,7 @@
-import './CardFormacion.css'
+import './FormacionCard.css'
 import Card from 'react-bootstrap/Card';
 
-const CardFormacion = () => {
+const FormacionCard = () => {
 
     const certificados = [
         { titulo: 'Carrera de Desarrollo Web Frontend React', academia: 'Coderhouse', fechaFin: 'Abril 2022', img: 'https://images.ctfassets.net/t5yal6u1wvnw/5EMxiqpZ4RqdmwHBpTkcYN/ee542d041f22d71df94cf5f301e487a8/logo_coderhouse.png' },
@@ -26,4 +26,4 @@ const CardFormacion = () => {
     )
 }
 
-export default CardFormacion;
+export default FormacionCard;
