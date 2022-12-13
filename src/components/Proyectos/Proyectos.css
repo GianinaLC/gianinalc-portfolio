@@ -1,3 +1,17 @@
-.containerH2{
-    margin-top: 5rem;
+.containerProjects {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.containerProjects h2 {
+    margin-top: 60px;
+}
+
+.containerProjectsCards {
+    display: flex;
+    flex-direction: column;
+    
+
+
 }
