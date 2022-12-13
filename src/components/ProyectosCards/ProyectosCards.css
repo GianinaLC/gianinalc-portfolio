@@ -1,0 +1,28 @@
+.projectCard{
+    margin: 1.5rem 0;
+    border: none;
+}
+
+.imgCardProject{
+    filter: blur(3px)
+}
+
+.containerText{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.containerText div {
+    background-color: rgba(48, 115, 216, 0.473);
+    width: 300px;
+    padding: 20px;
+    border-radius: 5%;
+    text-align: center;
+}
+
+.containerText div span:hover {
+   opacity: 0.5;
+   cursor: pointer;
+}
