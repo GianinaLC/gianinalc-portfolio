@@ -1,15 +1,23 @@
 import './Footer.css'
-import { VscGithub } from 'react-icons/vsc'
-import { AiOutlineLinkedin } from 'react-icons/ai'
+import { FaGithubSquare } from 'react-icons/fa'
+import { FaLinkedin } from 'react-icons/fa'
+import { BsArrowUpCircle } from 'react-icons/bs'
+import { Link } from 'react-router-dom'
 
 const Footer = () => {
+
     return (
         <div className='footerContainer'>
-            <p>Copyright | Gianina Carranzani</p>
-            <div>
-                <span className='footerIcon'> <VscGithub /> </span>
-                <span className='footerIcon'> <AiOutlineLinkedin /> </span>
+            <div className='footerContainerIcon'>
+                <span className='footerIcon'><a href='https://github.com/GianinaLC'><FaGithubSquare /></a></span>
+                <span className='footerIcon'><a href='https://www.linkedin.com/in/gianina-carranzani/'><FaLinkedin /></a></span>
             </div>
+
+            <div className='goUpContainer'>
+                <Link to='/inicio'><span className='goUp'><BsArrowUpCircle /></span></Link>
+            </div>
+            <p className='textCenter m-0'>Copyright | Gianina Carranzani</p>
+
         </div>
     )
 

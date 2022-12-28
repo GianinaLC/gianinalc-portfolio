@@ -26,8 +26,8 @@ const ProyectosCards = ({ img, title, id, description, url, github }) => {
                 <div className={card ? colorA : colorB}>
                     <p>{title}</p>
                     <p>{description}</p>
-                    <span className='footerIcon p-2'><a href={github} target="_blank" rel="noreferrer"><BsGithub /></a></span>
-                    <span className='footerIcon p-2'> <a href={url} target="_blank" rel="noreferrer"><BsBoxArrowUpRight /></a></span>
+                    <span className='projectIcon p-2'><a href={github} target="_blank" rel="noreferrer"><BsGithub /></a></span>
+                    <span className='projectIcon p-2'> <a href={url} target="_blank" rel="noreferrer"><BsBoxArrowUpRight /></a></span>
                 </div>
             </Card.ImgOverlay>
         </Card >

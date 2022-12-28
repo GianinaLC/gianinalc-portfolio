@@ -1,11 +1,33 @@
 .footerContainer{
+    background-color: #1d737375;
+}
+
+.footerContainerIcon{
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 2rem;
 }
 
 .footerIcon{
     padding: 0 0.3rem;
-    font-size: 2rem;
+    font-size: 3rem;
+}
+
+.goUpContainer{
+    position: relative;
+}
+
+.goUp{
+    font-size: 2rem ;
+    position: absolute;
+    right: 0;
+    bottom: 80px;
+    padding: 0.5rem;
+    color: #5da2a8;
+}
+
+.goUp:hover {
+    opacity: 0.5;
+    cursor: pointer;;
 }
