@@ -1,6 +1,6 @@
 import './App.css'
 import { BrowserRouter } from 'react-router-dom'
-import NavBar from './components/NavBar/NavBar'
+import NavBar from './components/NavBar/Navbar'
 import Inicio from './components/Inicio/Inicio'
 import SobreMi from './components/SobreMi/SobreMi'
 import Tecnologias from './components/Tecnologias/Tecnologias'

@@ -1,0 +1,19 @@
+.navMenu{
+    padding: 0 10px;
+}
+
+.categories{
+    padding: 0 10px;
+    text-decoration: none;
+    color: #0A3A40;
+}
+.categories:hover{
+    
+    color: white;
+    cursor: pointer;
+}
+
+.active{
+    color: #53aa97;
+   
+}

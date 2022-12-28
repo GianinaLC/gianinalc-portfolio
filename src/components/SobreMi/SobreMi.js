@@ -4,7 +4,7 @@ import Container from "react-bootstrap/esm/Container"
 
 const SobreMi = () => {
     return (
-        <Container className='containerGeneral' id='sobreMi'>
+        <Container className='containerGeneral' id='Sobre mí'>
             <h2>Sobre mí</h2>
         </Container>
     )
