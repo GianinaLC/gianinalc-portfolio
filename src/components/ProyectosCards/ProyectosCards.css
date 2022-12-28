@@ -1,7 +1,7 @@
 .projectCard{
-    margin: 1rem 0;
-    border: none;
-    width: 800px;
+    margin: 0.5rem;
+    border: none!important;
+    width: 600px;
 }
 
 .imgCardBlur{
@@ -13,8 +13,8 @@
     justify-content: center;
     align-items: center;
     height: 100%;
+    overflow: hidden;
 }
-
 
 .containerText div {
     background-color: rgba(48, 115, 216, 0.473);
@@ -23,6 +23,7 @@
     border-radius: 5%;
     text-align: center;
     animation-duration: 800ms;
+    
 }
 
 .containerText div span:hover {

@@ -6,13 +6,11 @@
 }
 
 .containerProjects h2 {
-    margin-top: 60px;
+    margin-top: 50px;
 }
 
 .containerProjectsCards {
     display: flex;
-    flex-direction: column;
-    
-
-
+    flex-wrap: wrap;
+    justify-content: center;
 }
