@@ -6,7 +6,7 @@ import { useState } from 'react';
 import 'animate.css'
 
 
-const ProyectosCards = ({ img, title, id, description }) => {
+const ProyectosCards = ({ img, title, id, description, url, github }) => {
     const [card, setCard] = useState(false)
 
     const [color, setColor] = useState(false)
@@ -26,8 +26,8 @@ const ProyectosCards = ({ img, title, id, description }) => {
                 <div className={card ? colorA : colorB}>
                     <p>{title}</p>
                     <p>{description}</p>
-                    <span className='footerIcon p-2'> <BsGithub /> </span>
-                    <span className='footerIcon p-2'> <BsBoxArrowUpRight /> </span>
+                    <span className='footerIcon p-2'><a href={github} target="_blank" rel="noreferrer"><BsGithub /></a></span>
+                    <span className='footerIcon p-2'> <a href={url} target="_blank" rel="noreferrer"><BsBoxArrowUpRight /></a></span>
                 </div>
             </Card.ImgOverlay>
         </Card >
