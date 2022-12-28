@@ -38,3 +38,7 @@
 .visible{
     display: block;
 }
+
+.projectIcon{
+    font-size: 2rem;
+}
