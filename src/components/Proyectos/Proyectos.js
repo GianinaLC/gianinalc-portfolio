@@ -12,7 +12,7 @@ const Proyectos = () => {
     ]
 
     return (
-        <Container className='containerProjects' id='proyectos'>
+        <Container className='containerProjects' id='Proyectos'>
             <h2> Proyectos</h2 >
             <div className='containerProjectsCards'>
                 {ProyectosRealizados.map(card => <ProyectosCards key={card.id}{...card} />)}

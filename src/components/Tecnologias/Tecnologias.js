@@ -4,7 +4,7 @@ import Container from 'react-bootstrap/esm/Container'
 
 const Habilidades = () => {
     return (
-        <Container className='containerGeneral' id='tecnologias'>
+        <Container className='containerGeneral' id='Tecnologías'>
             <h2 className='textCenter'>Tecnologías</h2>
             <div className='containerSkills'>
                 <p>Html</p>

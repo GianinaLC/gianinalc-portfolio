@@ -1,30 +1,30 @@
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-/* import { Link } from 'react-router-dom'; */
+import { Link } from 'react-scroll'
+import React, { useState } from 'react';
+import './Navbar.css'
 
 const NavBar = () => {
+
+    const categoriasMenu = ['Inicio', 'Sobre mí', 'Formación', 'Tecnologías', 'Proyectos']
+
+    const [click, setClick] = useState(false)
+    const closeMenu = () => setClick(false)
+
     return (
         <Navbar collapseOnSelect expand="lg" variant="dark" fixed="top" >
             <Container>
-                <Navbar.Brand href="#home">GC</Navbar.Brand>
+                <Navbar.Brand><Link to="Inicio" spy={true} smooth={true} offset={50} duration={500}>GC</Link></Navbar.Brand>
                 {/* <Link to='/'>
                     <img src={'../images/afklogo1.png'} className="logo-app" alt="logoAFK" />
                 </Link> */}
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
-                    <Nav className="ms-auto">
-                        {/*    <Nav.Link ><Link to='/'>Inicio</Link></Nav.Link>
-                        <Nav.Link ><Link to='/SobreMi'>Sobre mí</Link></Nav.Link>
-                        <Nav.Link ><Link to='/Formación'>Formación</Link></Nav.Link>
-                        <Nav.Link ><Link to='/Tecnologías'>Tecnologías</Link></Nav.Link>
-                        <Nav.Link ><Link to='/Proyectos'>Proyectos</Link></Nav.Link>*/}
-
-                        <Nav.Link href="#inicio">Inicio</Nav.Link>
-                        <Nav.Link href="#sobreMi">Sobre mí</Nav.Link>
-                        <Nav.Link href="#formacion">Formación</Nav.Link>
-                        <Nav.Link href="#tecnologias">Tecnologías</Nav.Link>
-                        <Nav.Link href="#proyectos">Proyectos</Nav.Link>
+                    <Nav className={click ? 'ms-auto navMenu active' : 'ms-auto navMenu'}>
+                        {categoriasMenu.map(menu =>
+                            <Link key={menu} className='categories' to={menu} spy={true} smooth={true} offset={-50} duration={500} onClick={closeMenu} >{menu}</Link>
+                        )}
                     </Nav>
                 </Navbar.Collapse>
             </Container>
