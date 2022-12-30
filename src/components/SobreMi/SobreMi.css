@@ -1,0 +1,7 @@
+.bgContainer{
+    background-color: var(--secondary-background-color);
+}
+
+.marginSecondary{
+   padding-top: 50px;
+}

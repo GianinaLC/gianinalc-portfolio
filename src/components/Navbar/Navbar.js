@@ -23,7 +23,7 @@ const NavBar = () => {
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className={click ? 'ms-auto navMenu active' : 'ms-auto navMenu'}>
                         {categoriasMenu.map(menu =>
-                            <Link key={menu} className='categories' to={menu} spy={true} smooth={true} offset={-50} duration={500} onClick={closeMenu} >{menu}</Link>
+                            <Link key={menu} className='categories' to={menu} spy={true} smooth={true} offset={0} duration={500} onClick={closeMenu} >{menu}</Link>
                         )}
                     </Nav>
                 </Navbar.Collapse>

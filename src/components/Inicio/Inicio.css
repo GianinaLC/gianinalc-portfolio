@@ -1,18 +1,12 @@
-/* .inicioContainer {
-    height: 100vh;
-    display: flex;
-    margin: 2rem 8rem;
-} */
-
 .contexto{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 90%;
     font-size: 2.2rem;
+    color: var(--primary-color-text);
 }
 
 .transformText{
-  color: rgb(66, 223, 189);
+  color: var(--secondary-color-text);
 }

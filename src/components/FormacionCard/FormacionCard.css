@@ -3,18 +3,16 @@
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: stretch;
-    margin: 1rem 0;
 }
 
 .cardItem {
-    background-color: #DAE1E7!important;   
-    color: #00909E;
+    background-color: var(--secondary-background-color)!important;  
+    color: var(--primary-color-text);
     text-transform: uppercase;
 }
 
 .cardItem img{
-  padding: 2rem;
-  object-fit: cover;
-  height: 200px;
- 
+  	padding: 2rem;
+  	object-fit: cover;
+  	height: 200px;
 }

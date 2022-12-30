@@ -2,18 +2,35 @@
     padding: 0 10px;
 }
 
+.categories.active {
+    color: var(--secondary-color-text) ;
+}
+
 .categories{
     padding: 0 10px;
     text-decoration: none;
-    color: #0A3A40;
-}
-.categories:hover{
-    
-    color: white;
-    cursor: pointer;
+    color: var(--z);
+    position: relative;
 }
 
-.active{
-    color: #53aa97;
-   
+.categories::after {
+    content: '';
+    background-color: #53aa6d;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    width: 100%;
+    height: 2px;
+    opacity: 0;
+    transition: opacity 0.3s;
 }
+
+.categories.active::after,
+.categories:hover,
+.categories:hover::after{
+    color: white;
+    cursor: pointer;
+    opacity: 0.8;
+    
+}
+
