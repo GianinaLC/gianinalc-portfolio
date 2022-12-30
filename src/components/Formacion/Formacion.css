@@ -1,10 +1,14 @@
-/* .containerFormacion{
-    height: 100vh;
+.containerFormacion{
+    min-height: 100vh;
+    margin-bottom: 20px;
+    
+}
+
+
+.divSec{
+    min-height: 80vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
-} */
-
-.containerFormacion h2{
-    margin-top: 5rem;
+    align-items: stretch;
 }

@@ -13,10 +13,7 @@ const Footer = () => {
                 <span className='footerIcon'><a href='https://www.linkedin.com/in/gianina-carranzani/'><FaLinkedin /></a></span>
             </div>
 
-            <div className='goUpContainer'>
-                <Link to='/inicio'><span className='goUp'><BsArrowUpCircle /></span></Link>
-            </div>
-            <p className='textCenter m-0'>Copyright | Gianina Carranzani</p>
+            <p className='text-center text-white m-0'>Copyright | Gianina Carranzani</p>
 
         </div>
     )

@@ -5,9 +5,11 @@ import FormacionCard from '../FormacionCard/FormacionCard';
 
 const Formacion = () => {
     return (
-        <Container className='containerGeneral' id='Formación'>
-            <h2>Formación</h2>
-            <FormacionCard />
+        <Container className='containerFormacion' id='Formación'>
+            <h2 className='marginSecondary'>Formación</h2>
+            <div className='divSec'>
+                <FormacionCard />
+            </div>
         </Container>
     )
 }

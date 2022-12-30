@@ -4,8 +4,8 @@ import '../styles/generalStyles.css'
 
 const Inicio = () => {
     return (
-        <section className='containerGeneral' id='Inicio'>
-            <div className='contexto'>
+        <section className='containerGeneral contexto' id='Inicio'>
+            <div>
                 <h1>Hola mundo! soy <span className='transformText'>Gianina Carranzani</span></h1>
                 <h2 className='animate__animated animate__slideInDown'>Desarrolladora web frontend</h2>
             </div>
