@@ -1,21 +1,22 @@
 .navMenu{
-    padding: 0 10px;
+    backdrop-filter: blur(15px);
 }
 
+
 .categories.active {
-    color: var(--secondary-color-text) ;
+    color: var(--primary-color-text) ;
 }
 
 .categories{
     padding: 0 10px;
     text-decoration: none;
-    color: var(--z);
-    position: relative;
+    color: var(--third-color-text);
+    position: relative;   
 }
 
 .categories::after {
     content: '';
-    background-color: #53aa6d;
+    background-color: #53aa97b4;
     position: absolute;
     left: 0;
     top: 100%;
@@ -28,9 +29,8 @@
 .categories.active::after,
 .categories:hover,
 .categories:hover::after{
-    color: white;
+    color: #71f3d7c2;
     cursor: pointer;
-    opacity: 0.8;
-    
+    opacity: 0.8;    
 }
 

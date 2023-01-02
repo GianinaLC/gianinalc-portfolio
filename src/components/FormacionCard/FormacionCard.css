@@ -1,12 +1,14 @@
 .containerCards {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: stretch;
 }
 
 .cardItem {
-    background-color: var(--secondary-background-color)!important;  
+    background-color: var(--secondary-background-color)!important; 
+    border:rgba(79, 92, 92, 0.247)  solid;
+    box-shadow: 5px 2px 5px  rgba(79, 92, 92, 0.562); 
     color: var(--primary-color-text);
     text-transform: uppercase;
 }
@@ -15,4 +17,5 @@
   	padding: 2rem;
   	object-fit: cover;
   	height: 200px;
+    background-color: var(--primary-color-text);
 }
