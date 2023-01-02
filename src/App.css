@@ -1,18 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,700;1,400&display=swap');
 
 :root{
-    --background-color: #042326;
-    --secondary-background-color:#0F5959;
-    --z: #0A3A40;
+    --primary-background-color: #042326;
+    --secondary-background-color: #0A3A40;
     --primary-color-text: #d8f0f1;
     --secondary-color-text: #107361;
-    --a:#1D7373; 
+    --third-color-text:#1D7373; 
+    --borderD:#1d737385;
 
 }
 
 
 body {
-    background-color: var(--background-color)!important ;
+    background-color: var(--primary-background-color)!important ;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -25,3 +25,11 @@ h2{
 .containerGeneral{
     height: 100vh;
 } 
+
+.marginSecondary{
+   padding-top: 50px;
+}
+
+.secondBgColor{
+    background-color: var(--secondary-background-color);
+}

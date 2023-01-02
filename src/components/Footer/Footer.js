@@ -1,11 +1,8 @@
 import './Footer.css'
 import { FaGithubSquare } from 'react-icons/fa'
 import { FaLinkedin } from 'react-icons/fa'
-import { BsArrowUpCircle } from 'react-icons/bs'
-import { Link } from 'react-router-dom'
 
 const Footer = () => {
-
     return (
         <div className='footerContainer'>
             <div className='footerContainerIcon'>

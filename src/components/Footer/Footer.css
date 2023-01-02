@@ -1,5 +1,5 @@
 .footerContainer{
-    background-color: var(--background-color);
+    background-color: var(--secondary-background-color);
 }
 
 .footerContainerIcon{
@@ -12,5 +12,10 @@
 .footerIcon a{
     padding: 0 0.3rem;
     font-size: 3rem;
-    color: var(--a);
+    color: var(--third-color-text);
+}
+
+
+.footerIcon a:hover{
+    color: var(--background-color);
 }

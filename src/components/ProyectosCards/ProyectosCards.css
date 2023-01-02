@@ -1,7 +1,7 @@
 .projectCard{
-    margin: 0.5rem;
+    margin: 1rem;
     border: none!important;
-    width: 600px;
+    max-width: 600px;
 }
 
 .imgCardBlur{
@@ -17,13 +17,18 @@
 }
 
 .containerText div {
-    background-color: rgba(48, 115, 216, 0.473);
+    background-color: var(--borderD);
     width: 300px;
     padding: 20px;
-    border-radius: 5%;
+    border-radius: 10px;
     text-align: center;
     animation-duration: 800ms;
-    
+    border: 2px solid var(--borderD);
+}
+
+.containerText div span a{
+    color: var(--primary-color-text);
+    font-size: 2rem;
 }
 
 .containerText div span:hover {
@@ -37,8 +42,4 @@
 
 .visible{
     display: block;
-}
-
-.projectIcon{
-    font-size: 2rem;
 }
