@@ -13,7 +13,10 @@ const Inicio = () => {
                 </div>
             </div>
             <div className='contenedor2'>
-                <h2 className='animate__animated animate__slideInDown animate__delay-1s '>Desarrolladora web frontend</h2>
+                <div className='div1Inicio animate__animated animate__slideInDown animate__delay-1s '>
+                    <p>Desarrolladora web</p>
+                    <p>Frontend</p>
+                </div>
                 <div className='containerIconInicio'>
                     <span className='iconInicio'><a href='https://github.com/GianinaLC'><FaGithubSquare /></a></span>
                     <span className='iconInicio'><a href='https://www.linkedin.com/in/gianina-carranzani/'><FaLinkedin /></a></span>
