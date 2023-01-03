@@ -1,12 +1,80 @@
+.contenedorInicio {
+	position: relative;
+	width: 100%;
+	background: var(--primary-background-color);
+}
+
+.contenedor1{
+	width: 50%;
+	height: 100%;
+	position: absolute;
+	z-index: 2;
+}
+
+.contenedor1::after{
+	content: "";
+	position: absolute;
+	right: -20px;
+	width: 120%;
+	height: 100%;
+	background: var(--primary-background-color);
+	transform: skew(40deg);
+	z-index: -1;
+}
+
+.contenedor2{
+	background:  var(--third-color-text);
+	width: 50%;
+	right: 0px;
+	height: 100%;
+	display: block;
+	position: absolute;
+	z-index: 1;
+}
+
+.contenedor2::before{
+	content: "";
+	position: absolute;
+	left: -120px;
+	width: 80%;
+	height: 80%;
+	background: var(--third-color-text);
+	transform: skew(40deg);
+}
+
+.contenedor2 h2{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+}
+
 .contexto{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-size: 2.2rem;
-    color: var(--primary-color-text);
+    color: var(--third-color-text);
+	padding: 10rem;
 }
 
-.transformText{
-  color: var(--secondary-color-text);
+.contexto h2{
+	font-size: 2.8rem;
+	padding: 10px;
+	color: var(--primary-color-text)
+}
+
+.containerIconInicio{
+	position: absolute;
+	bottom: 0px;
+	right: 15px;
+}
+
+.iconInicio a{
+	color: var(--primary-background-color);
+	font-size: 3.3rem;
+}
+
+.iconInicio a:hover{
+	color: var(--secondary-background-color);
 }
