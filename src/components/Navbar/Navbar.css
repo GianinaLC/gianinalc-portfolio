@@ -10,7 +10,7 @@
 .categories{
     padding: 0 10px;
     text-decoration: none;
-    color: var(--third-color-text);
+    color: var(--primary-color-text);
     position: relative;   
 }
 
