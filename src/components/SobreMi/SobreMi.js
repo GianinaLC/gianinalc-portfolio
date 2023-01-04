@@ -7,6 +7,7 @@ const SobreMi = () => {
             <div>
                 <h2 className='marginSecondary'>Sobre mí</h2>
             </div>
+
             <div className='contenedor1SM'>
                 <p>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</p>
                 <p>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</p>
