@@ -30,6 +30,10 @@ h2{
    padding-top: 50px;
 }
 
+.firstBgColor{
+    background-color: var(--primary-background-color);
+}
+
 .secondBgColor{
     background-color: var(--secondary-background-color);
 }
