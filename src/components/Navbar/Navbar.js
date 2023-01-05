@@ -16,9 +16,6 @@ const NavBar = () => {
         <Navbar collapseOnSelect expand="lg" variant="dark" fixed='top' className='navMenu' >
             <Container fluid>
                 <Navbar.Brand><Link to="Inicio" spy={true} smooth={true} onClick={closeMenu} offset={50} duration={500}>GC</Link></Navbar.Brand>
-                {/* <Link to='/'>
-                    <img src={'../images/afklogo1.png'} className="logo-app" alt="logoAFK" />
-                </Link> */}
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className={click ? 'ms-auto active' : 'ms-auto '}>

@@ -10,17 +10,15 @@ import Footer from './components/Footer/Footer'
 
 function App() {
   return (
-    <div className="App">
-      <BrowserRouter >
-        <NavBar />
-        <Inicio />
-        <SobreMi />
-        <Formacion />
-        <Tecnologias />
-        <Proyectos />
-        <Footer />
-      </BrowserRouter>
-    </div>
+    <BrowserRouter >
+      <NavBar />
+      <Inicio />
+      <SobreMi />
+      <Formacion />
+      <Tecnologias />
+      <Proyectos />
+      <Footer />
+    </BrowserRouter>
   );
 }
 
