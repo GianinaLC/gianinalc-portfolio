@@ -4,7 +4,7 @@ import BotonesInicio from '../InicioBotones/InicioBotones';
 
 const Inicio = () => {
     return (
-        <div className='containerGeneral contenedorInicio' id='Inicio'>
+        <section className='containerGeneral contenedorInicio' id='Inicio'>
             <div className='contenedor1 contexto' >
                 <div className='animate__animated animate__backInLeft'>
                     <p>Hola mundo! soy</p>
@@ -20,7 +20,7 @@ const Inicio = () => {
             <div className='btnContacto'>
                 <BotonesInicio />
             </div>
-        </div >
+        </section >
     )
 }
 

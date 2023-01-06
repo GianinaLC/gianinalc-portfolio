@@ -5,19 +5,18 @@
     --secondary-background-color: #0A3A40;
     --primary-color-text: #d8f0f1;
     --secondary-color-text: #107361;
-    --third-color-text:#1D7373; 
+    --third-color-text:#1d737383; 
     --borderD:#1d737385;
 
-}
+    --principalBg: #10736193;
 
+    --first-font: 'Roboto', sans-serif;
+    --second-font:'Montserrat', sans-serif;
 
-body {
-    /* background-color: var(--primary-background-color)!important ; */
-    font-family: 'Roboto', sans-serif;
 }
 
 h2{
-    text-align: center;
+    
     text-transform: uppercase;
     color: var(--primary-color-text);
 }

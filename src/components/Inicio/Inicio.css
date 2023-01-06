@@ -3,6 +3,7 @@
 	width: 100%;
 	background-color: var(--primary-background-color);
 	overflow: hidden;
+	font-family: var(--first-font);
 }
 
 .contenedor1{
