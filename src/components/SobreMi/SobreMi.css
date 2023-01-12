@@ -1,6 +1,9 @@
 .contenedorPrincipal{
     padding: 20px;
     background-color: var(--primary-background-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .contenedorSM{
@@ -9,22 +12,18 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    width: 100%;
-    height: 100%;
+  
 }
 
-.contenedorSM div:first-child{
+.contenedorSM h2{
+    padding: 20px;
     width: 250px;
-    padding-bottom: 20px;
-    border-left: 2px solid var(--borderD);
-    border-left-style: dotted;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 50%;
 }
 
-.contenedorSM div:not(div:first-child) {
+.contenedorSM div {
     background-color: var(--secondary-color-text);
     border-radius: 10px;
     font-size: 1.3rem;
@@ -35,14 +34,10 @@
 }
 
 @media screen and (max-width:1024px){
-    .contenedorSM{
+ /*    .contenedorSM h2{
         display: flex;
         justify-content: center;
         align-content: center;
     }
-
-    .contenedorSM div:first-child{
-        border-left: none;
-        height: 100px;
-    }
+ */
 }
