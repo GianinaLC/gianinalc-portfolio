@@ -2,14 +2,16 @@ import './Formacion.css'
 import Container from 'react-bootstrap/Container';
 import FormacionCard from '../FormacionCard/FormacionCard';
 
+
 const Formacion = () => {
+
     return (
-        <Container fluid id='Formación' className='firstBgColor'>
-            <h2 className='marginSecondary'>Formación</h2>
-            <div className='divSec'>
+        <section id='Formación' className='firstBgColor containerFormacion'>
+            <Container fluid >
+                <h2>Formación</h2>
                 <FormacionCard />
-            </div>
-        </Container>
+            </Container>
+        </section>
     )
 }
 

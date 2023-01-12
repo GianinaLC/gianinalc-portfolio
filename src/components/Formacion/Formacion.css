@@ -1,8 +1,20 @@
-.divSec{
-    padding: 50px;
-    height: 100%;
+.containerFormacion{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    
+    padding: 20px;
+   
+    justify-content: space-around;
+    padding: 20px;
+}
+
+
+.containerFormacion h2 {
+    text-align: center;
+    padding: 20px;
+}
+
+@media (min-width: 1168px){
+    .containerFormacion{
+        height: 100vh;
+    }
 }

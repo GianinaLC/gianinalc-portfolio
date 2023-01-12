@@ -1,6 +1,5 @@
 .contenedorPrincipal{
     padding: 20px;
-    font-family: var(--first-font);
     background-color: var(--primary-background-color);
 }
 
@@ -12,12 +11,11 @@
     align-items: center;
     width: 100%;
     height: 100%;
-    padding: 20px;
 }
 
 .contenedorSM div:first-child{
     width: 250px;
-    padding: 20px;
+    padding-bottom: 20px;
     border-left: 2px solid var(--borderD);
     border-left-style: dotted;
     display: flex;
@@ -37,7 +35,6 @@
 }
 
 @media screen and (max-width:1024px){
-
     .contenedorSM{
         display: flex;
         justify-content: center;

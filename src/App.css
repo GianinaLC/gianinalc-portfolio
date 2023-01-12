@@ -36,3 +36,7 @@ h2{
 .secondBgColor{
     background-color: var(--secondary-background-color);
 }
+
+section {
+    font-family: var(--first-font);
+}

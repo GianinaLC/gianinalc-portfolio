@@ -1,5 +1,5 @@
 import './SobreMi.css'
-import Container from "react-bootstrap/esm/Container"
+import Container from "react-bootstrap/Container"
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 

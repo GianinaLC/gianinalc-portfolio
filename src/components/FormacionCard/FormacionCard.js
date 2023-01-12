@@ -1,16 +1,19 @@
 import './FormacionCard.css'
 import Card from 'react-bootstrap/Card';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const FormacionCard = () => {
 
     const certificados = [
         { titulo: 'Carrera de Desarrollo Web Frontend React', academia: 'Coderhouse', fechaFin: 'Abril 2022', img: 'https://images.ctfassets.net/t5yal6u1wvnw/5EMxiqpZ4RqdmwHBpTkcYN/ee542d041f22d71df94cf5f301e487a8/logo_coderhouse.png' },
-        { titulo: 'Html css javascript', academia: 'Openbootcamp', fechaFin: 'Julio 2022', img: 'https://vlctesting.es/wp-content/uploads/2022/08/Open-Bootcamp.png' },
+        { titulo: 'HTML CSS Javascript', academia: 'Openbootcamp', fechaFin: 'Julio 2022', img: 'https://vlctesting.es/wp-content/uploads/2022/08/Open-Bootcamp.png' },
         { titulo: 'Desarrollo Web Frontend', academia: 'Fundación YPF', fechaFin: 'Diciembre 2022', img: 'https://www.fceia.unr.edu.ar/uma2013/images/logoYPF-letras-negras.gif' }
     ]
 
+    AOS.init();
     return (
-        <div className='containerCards'>
+        <div className='containerCards' data-aos="fade-up">
             {certificados.map((certificado, id) => {
                 return <Card style={{ width: '23rem' }} className="mb-2 cardItem" key={id}>
                     <Card.Img variant="top" src={certificado.img} />
