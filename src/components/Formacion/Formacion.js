@@ -7,7 +7,7 @@ const Formacion = () => {
 
     return (
         <section id='Formación' className='firstBgColor containerFormacion'>
-            <Container fluid >
+            <Container fluid>
                 <h2>Formación</h2>
                 <FormacionCard />
             </Container>

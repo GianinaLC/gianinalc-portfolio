@@ -7,11 +7,11 @@ const SobreMi = () => {
     AOS.init();
     return (
         <section className='containerGeneral contenedorPrincipal' id='Sobre mí'>
-            <Container fluid className='contenedorSM' data-aos="fade-up">
+            <Container fluid className='contenedorSM' data-aos="fade-up" data-aos-duration="2000">
+                <h2>Sobre mí</h2>
+
                 <div>
-                    <h2>Sobre mí</h2>
-                </div>
-                <div><p>Soy desarrolladora web frontend, en constante crecimiento.</p>
+                    <p>Soy desarrolladora web frontend, en constante crecimiento.</p>
                     <p>Aspiro conseguir empleo en el mundo del Desarrollo Web, adquirir experiencia y nuevos conocimientos.</p>
                     <p>Soy una persona empática y entusiasta, resolutiva, responsable y proactiva, me gusta aprender de los demás y superarme continuamente.</p>
                 </div>

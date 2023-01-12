@@ -13,7 +13,7 @@ const FormacionCard = () => {
 
     AOS.init();
     return (
-        <div className='containerCards' data-aos="fade-up">
+        <div className='containerCards' data-aos="fade-up" data-aos-duration="2000">
             {certificados.map((certificado, id) => {
                 return <Card style={{ width: '23rem' }} className="mb-2 cardItem" key={id}>
                     <Card.Img variant="top" src={certificado.img} />
