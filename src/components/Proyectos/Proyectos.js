@@ -11,12 +11,14 @@ const Proyectos = () => {
     ]
 
     return (
-        <Container fluid className='containerProjects firstBgColor' id='Proyectos'>
-            <h2 className='marginSecondary'> Proyectos</h2 >
-            <div className='containerProjectsCards'>
-                {ProyectosRealizados.map(card => <ProyectosCards key={card.id}{...card} />)}
-            </div>
-        </Container>
+        <section className='firstBgColor' id='Proyectos'>
+            <Container fluid className='containerProjects '>
+                <h2 className='marginSecondary'> Proyectos</h2 >
+                <div className='containerProjectsCards'>
+                    {ProyectosRealizados.map(card => <ProyectosCards key={card.id}{...card} />)}
+                </div>
+            </Container>
+        </section>
     )
 }
 
