@@ -4,6 +4,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { IoLogoCss3, IoLogoSass, IoLogoJavascript } from 'react-icons/io';
 import { FaReact, FaHtml5, FaGitAlt, FaGithub, FaNodeJs } from 'react-icons/fa';
+import { SiJquery } from 'react-icons/si'
 
 const Habilidades = () => {
     const skills = [
@@ -11,10 +12,12 @@ const Habilidades = () => {
         { id: 2, title: 'css', icon: <IoLogoCss3 /> },
         { id: 3, title: 'sass', icon: <IoLogoSass /> },
         { id: 4, title: 'javascript', icon: <IoLogoJavascript /> },
-        { id: 5, title: 'react', icon: <FaReact /> },
-        { id: 6, title: 'nodejs', icon: <FaNodeJs /> },
-        { id: 7, title: 'git', icon: <FaGitAlt /> },
-        { id: 8, title: 'github', icon: <FaGithub /> }
+        { id: 5, title: 'jquery', icon: <SiJquery /> },
+        { id: 6, title: 'react', icon: <FaReact /> },
+        { id: 7, title: 'nodejs', icon: <FaNodeJs /> },
+        { id: 8, title: 'git', icon: <FaGitAlt /> },
+        { id: 9, title: 'github', icon: <FaGithub /> }
+
     ]
     AOS.init();
 
