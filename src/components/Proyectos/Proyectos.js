@@ -14,7 +14,7 @@ const Proyectos = () => {
     AOS.init();
 
     return (
-        <section className='firstBgColor' id='Proyectos'>
+        <section className='firstBgColor sectionPj' id='Proyectos'>
             <Container fluid className='containerProjects' data-aos="zoom-in-up">
                 <h2 className='marginSecondary'> Proyectos</h2 >
                 <div className='containerProjectsCards'>

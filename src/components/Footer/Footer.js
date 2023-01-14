@@ -4,15 +4,18 @@ import { FaLinkedin } from 'react-icons/fa'
 
 const Footer = () => {
     return (
-        <div className='footerContainer'>
-            <div className='footerContainerIcon'>
-                <span className='footerIcon'><a href='https://github.com/GianinaLC'><FaGithubSquare /></a></span>
-                <span className='footerIcon'><a href='https://www.linkedin.com/in/gianina-carranzani/'><FaLinkedin /></a></span>
+        <section className=' footerSp'>
+            <div>
+                <h2>Conectemos</h2>
+                <div className='footerContainerIcon'>
+                    <span className='footerIcon'><a href='https://github.com/GianinaLC'><FaGithubSquare /></a></span>
+                    <span className='footerIcon'><a href='https://www.linkedin.com/in/gianina-carranzani/'><FaLinkedin /></a></span>
+                </div>
             </div>
 
-            <p className='text-center text-white m-0'>Copyright | Gianina Carranzani</p>
+            <p className='footerAutor'>2023 | Gianina Carranzani</p>
 
-        </div>
+        </section>
     )
 
 }
