@@ -1,26 +1,14 @@
-.contenedorPrincipal{
-    padding: 20px;
-    background-color: var(--primary-background-color);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 .contenedorSM{
     color: var(--primary-color-text);
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     height: 100%;
 }
 
 .contenedorSM h2{
-    padding: 20px;
-    width: 250px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    padding: 40px;
 }
 
 .contenedorSM div {
@@ -34,10 +22,6 @@
 }
 
 @media screen and (max-width:1024px){
- /*    .contenedorSM h2{
-        display: flex;
-        justify-content: center;
-        align-content: center;
-    }
- */
+  
+    
 }
