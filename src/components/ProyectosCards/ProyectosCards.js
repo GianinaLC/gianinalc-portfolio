@@ -3,7 +3,9 @@ import Card from 'react-bootstrap/Card';
 import { BsGithub } from 'react-icons/bs'
 import { BsBoxArrowUpRight } from 'react-icons/bs'
 import { useState } from 'react';
-import 'animate.css'
+import 'animate.css';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 
 const ProyectosCards = ({ img, title, id, description, url, github }) => {
@@ -13,6 +15,7 @@ const ProyectosCards = ({ img, title, id, description, url, github }) => {
     const animateA = 'animate__animated animate__fadeInUp'
     const animateB = 'animate__animated animate__fadeOutDown'
 
+    AOS.init();
 
     return (
         <Card
@@ -20,6 +23,9 @@ const ProyectosCards = ({ img, title, id, description, url, github }) => {
             key={id}
             onMouseEnter={() => { setCard(true); setColor(true) }}
             onMouseLeave={() => { setCard(false); setColor(true) }}
+            data-aos="zoom-in-up"
+            data-aos-offset="300"
+            data-aos-easing="ease-in-sine"
         >
             <Card.Img src={img} alt={title} className={card ? 'imgCardBlur' : 'hidden'} />
             <Card.ImgOverlay className={color ? 'visible, containerText' : 'oculto'}>

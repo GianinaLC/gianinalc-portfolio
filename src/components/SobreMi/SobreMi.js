@@ -7,7 +7,8 @@ const SobreMi = () => {
     AOS.init();
     return (
         <section className='containerGeneral contenedorPrincipal' id='Sobre mí'>
-            <Container fluid className='contenedorSM' data-aos="fade-up" data-aos-duration="2000">
+            <Container fluid className='contenedorSM'
+                data-aos="zoom-in-up">
                 <h2>Sobre mí</h2>
 
                 <div>

@@ -1,7 +1,6 @@
 import './FormacionCard.css'
 import Card from 'react-bootstrap/Card';
-import AOS from 'aos';
-import 'aos/dist/aos.css';
+
 
 const FormacionCard = () => {
 
@@ -11,9 +10,8 @@ const FormacionCard = () => {
         { titulo: 'Desarrollo Web Frontend', academia: 'Fundación YPF', fechaFin: 'Diciembre 2022', img: 'https://www.fceia.unr.edu.ar/uma2013/images/logoYPF-letras-negras.gif' }
     ]
 
-    AOS.init();
     return (
-        <div className='containerCards' data-aos="fade-up" data-aos-duration="2000">
+        <div className='containerCards'>
             {certificados.map((certificado, id) => {
                 return <Card style={{ width: '23rem' }} className="mb-2 cardItem" key={id}>
                     <Card.Img variant="top" src={certificado.img} />
