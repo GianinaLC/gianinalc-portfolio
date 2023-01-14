@@ -1,21 +1,40 @@
-.footerContainer{
-    background-color: var(--secondary-background-color);
+.footerSp{
+    background-color: var(--primary-background-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.footerSp div:first-child{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    background-color: var(--secondary-color-text);
+    justify-content: center;
+    align-items: baseline;
+    font-family: var(--firstFont);
+    padding: 20px;
 }
 
 .footerContainerIcon{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 2rem;
+    padding: 0 1rem;
 }
 
 .footerIcon a{
     padding: 0 0.3rem;
     font-size: 3rem;
-    color: var(--third-color-text);
+    color: var(--primary-color-text);
 }
 
 
 .footerIcon a:hover{
-    color: var(--background-color);
+    color: var(--primary-background-color);
+}
+
+.footerSp p {
+    margin: 0;
+    padding: 10px;
+    color: var(--primary-color-text);
+    font-family: var(--second-font);
+    text-align: center;
 }
