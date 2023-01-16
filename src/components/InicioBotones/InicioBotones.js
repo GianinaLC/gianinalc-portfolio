@@ -1,5 +1,6 @@
-import './InicioBotones.css'
-import { FaDownload, FaGithub, FaLinkedin } from 'react-icons/fa'
+import React from 'react';
+import './InicioBotones.css';
+import { FaDownload, FaGithub, FaLinkedin } from 'react-icons/fa';
 
 const BotonesInicio = () => {
     const botones = [

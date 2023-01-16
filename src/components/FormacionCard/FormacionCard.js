@@ -1,4 +1,5 @@
-import './FormacionCard.css'
+import React from 'react';
+import './FormacionCard.css';
 import Card from 'react-bootstrap/Card';
 
 
@@ -13,7 +14,7 @@ const FormacionCard = () => {
     return (
         <div className='containerCards'>
             {certificados.map((certificado, id) => {
-                return <Card style={{ width: '23rem' }} className="mb-2 cardItem" key={id}>
+                return <Card style={{ width: '26rem' }} className="mb-2 cardItem" key={id}>
                     <Card.Img variant="top" src={certificado.img} />
                     <Card.Body>
                         <Card.Title> {certificado.titulo} </Card.Title>

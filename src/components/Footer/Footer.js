@@ -1,6 +1,6 @@
-import './Footer.css'
-import { FaGithubSquare } from 'react-icons/fa'
-import { FaLinkedin } from 'react-icons/fa'
+import React from 'react';
+import './Footer.css';
+import { FaGithubSquare, FaLinkedin } from 'react-icons/fa';
 
 const Footer = () => {
     return (
@@ -20,4 +20,4 @@ const Footer = () => {
 
 }
 
-export default Footer
+export default Footer;
