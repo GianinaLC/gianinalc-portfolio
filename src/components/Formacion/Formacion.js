@@ -1,3 +1,4 @@
+import React from 'react';
 import './Formacion.css'
 import Container from 'react-bootstrap/Container';
 import FormacionCard from '../FormacionCard/FormacionCard';

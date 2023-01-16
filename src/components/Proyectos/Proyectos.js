@@ -1,4 +1,5 @@
-import './Proyectos.css'
+import React from 'react';
+import './Proyectos.css';
 import Container from 'react-bootstrap/Container';
 import ProyectosCards from '../ProyectosCards/ProyectosCards';
 import AOS from 'aos';
@@ -25,4 +26,4 @@ const Proyectos = () => {
     )
 }
 
-export default Proyectos
+export default Proyectos;

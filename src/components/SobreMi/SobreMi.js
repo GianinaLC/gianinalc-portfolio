@@ -1,12 +1,13 @@
-import './SobreMi.css'
-import Container from "react-bootstrap/Container"
+import React from 'react';
+import './SobreMi.css';
+import Container from "react-bootstrap/Container";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
 const SobreMi = () => {
     AOS.init();
     return (
-        <section className='containerGeneral firstBgColor' id='Sobre mí'>
+        <section className='containerGeneral firstBgColor container1SM' id='Sobre mí'>
             <Container fluid className='contenedorSM' data-aos="zoom-in-up">
                 <h2>Sobre mí</h2>
 
@@ -20,4 +21,4 @@ const SobreMi = () => {
     )
 }
 
-export default SobreMi
+export default SobreMi;

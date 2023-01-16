@@ -1,8 +1,7 @@
-import './ProyectosCards.css'
+import React, { useState } from 'react';
+import './ProyectosCards.css';
 import Card from 'react-bootstrap/Card';
-import { BsGithub } from 'react-icons/bs'
-import { BsBoxArrowUpRight } from 'react-icons/bs'
-import { useState } from 'react';
+import { BsGithub, BsBoxArrowUpRight } from 'react-icons/bs';
 import 'animate.css';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -40,4 +39,4 @@ const ProyectosCards = ({ img, title, id, description, url, github }) => {
     )
 }
 
-export default ProyectosCards
+export default ProyectosCards;

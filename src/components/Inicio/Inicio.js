@@ -1,4 +1,5 @@
-import './Inicio.css'
+import React from 'react';
+import './Inicio.css';
 import 'animate.css';
 import BotonesInicio from '../InicioBotones/InicioBotones';
 

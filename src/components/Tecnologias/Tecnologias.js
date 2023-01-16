@@ -1,10 +1,11 @@
-import './Tecnologias.css'
-import Container from 'react-bootstrap/esm/Container'
+import React from 'react';
+import './Tecnologias.css';
+import Container from 'react-bootstrap/esm/Container';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { IoLogoCss3, IoLogoSass, IoLogoJavascript } from 'react-icons/io';
 import { FaReact, FaHtml5, FaGitAlt, FaGithub, FaNodeJs } from 'react-icons/fa';
-import { SiJquery } from 'react-icons/si'
+import { SiJquery } from 'react-icons/si';
 
 const Habilidades = () => {
     const skills = [
@@ -33,4 +34,4 @@ const Habilidades = () => {
     )
 }
 
-export default Habilidades
+export default Habilidades;

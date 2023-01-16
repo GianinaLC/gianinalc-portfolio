@@ -1,30 +1,30 @@
-import Container from 'react-bootstrap/Container';
-import Nav from 'react-bootstrap/Nav';
-import Navbar from 'react-bootstrap/Navbar';
-import { Link } from 'react-scroll'
-import React, { useState } from 'react';
+import React, { useState } from 'react'
 import './Navbar.css'
+import { Link } from 'react-scroll'
+import { FaBars, FaTimes } from 'react-icons/fa'
 
 const NavBar = () => {
-
     const categoriasMenu = ['Inicio', 'Sobre mí', 'Formación', 'Tecnologías', 'Proyectos']
 
     const [click, setClick] = useState(false)
+    const handleClick = () => setClick(!click)
+
     const closeMenu = () => setClick(false)
 
     return (
-        <Navbar collapseOnSelect expand="lg" variant="dark" fixed='top' className='navMenu' >
-            <Container fluid>
-                <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-                <Navbar.Collapse id="responsive-navbar-nav">
-                    <Nav className={click ? 'ms-auto active' : 'ms-auto '}>
-                        {categoriasMenu.map(menu =>
-                            <Link key={menu} className='categories' to={menu} spy={true} smooth={true} offset={-35} duration={200} onClick={closeMenu} >{menu}</Link>
-                        )}
-                    </Nav>
-                </Navbar.Collapse>
-            </Container>
-        </Navbar>
+        <div className='header' >
+            <nav className='navbar'>
+                <div className='hamburger' onClick={handleClick}>
+                    {click ? (<FaTimes size={25} style={{ color: '#ffffff' }} />)
+                        : (<FaBars size={25} style={{ color: '#ffffff' }} />)}
+                </div>
+                <div className={click ? "nav-menu active" : "nav-menu"}>
+                    {categoriasMenu.map(menu =>
+                        <Link key={menu} to={menu} className='nav-item' spy={true} smooth={true} offset={-40} duration={200} onClick={closeMenu} >{menu}</Link>
+                    )}
+                </div>
+            </nav>
+        </div>
     );
 }
 
