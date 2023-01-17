@@ -2,21 +2,19 @@
 
 :root{
     --primary-background-color: #042326;
-    --secondary-background-color: #0A3A40;
-    --primary-color-text: #d8f0f1;
-    --secondary-color-text: #107361;
-    --third-color-text:#1d737383; 
-    --borderD:#1d737385;
+    --secondary-background-color: #107361;
 
-    --principalBg: #10736193;
+    --primary-color-text: #d8f0f1;
+    --secondary-color-text: #0A3A40;
+    --third-color-text:#1d737383; 
+
+    --borderD:#1d737385;
 
     --first-font: 'Roboto', sans-serif;
     --second-font:'Montserrat', sans-serif;
-
 }
 
 h2{
-    
     text-transform: uppercase;
     color: var(--primary-color-text);
 }
@@ -25,17 +23,10 @@ h2{
     height: 100vh;
 } 
 
-.marginSecondary{
-   padding-top: 50px;
-}
-
 .firstBgColor{
     background-color: var(--primary-background-color);
 }
 
-.secondBgColor{
-    background-color: var(--secondary-background-color);
-}
 
 section {
     font-family: var(--first-font);

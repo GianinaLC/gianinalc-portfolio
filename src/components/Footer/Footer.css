@@ -9,10 +9,9 @@
     display: flex;
     flex-wrap: wrap;
     width: 100%;
-    background-color: var(--secondary-color-text);
+    background-color: var(--secondary-background-color);
     justify-content: center;
     align-items: baseline;
-    font-family: var(--firstFont);
     padding: 20px;
 }
 
@@ -25,7 +24,6 @@
     font-size: 3rem;
     color: var(--primary-color-text);
 }
-
 
 .footerIcon a:hover{
     color: var(--primary-background-color);

@@ -3,7 +3,6 @@
 	width: 100%;
 	background-color: var(--primary-background-color);
 	overflow: hidden;
-	font-family: var(--first-font);
 }
 
 .contenedor1{
@@ -25,7 +24,7 @@
 }
 
 .contenedor2{
-	background-color:  var(--secondary-color-text);
+	background-color: var(--secondary-background-color);
 	width: 50%;
 	right: 0px;
 	height: 100%;
@@ -40,7 +39,7 @@
 	left: -100px;
 	width: 500px;
 	height: 100%;
-	background-color: var(--secondary-color-text);
+	background-color: var(--secondary-background-color);
 	transform: skew(30deg);
 	z-index: -1;
 }
@@ -93,8 +92,8 @@
 		content: '';
 		bottom: 0;
 		width: 100%;
-		height: 75px;
-		background-color: var(--secondary-color-text);
+		height: 50px;
+		background-color: var(--secondary-background-color);
 		position: absolute;
 		z-index: 2;
 	}

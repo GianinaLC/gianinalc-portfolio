@@ -17,7 +17,7 @@ const Proyectos = () => {
     return (
         <section className='firstBgColor sectionPj' id='Proyectos'>
             <Container fluid className='containerProjects' data-aos="zoom-in-up">
-                <h2 className='marginSecondary'> Proyectos</h2 >
+                <h2> Proyectos</h2 >
                 <div className='containerProjectsCards'>
                     {ProyectosRealizados.map(card => <ProyectosCards key={card.id}{...card} />)}
                 </div>
