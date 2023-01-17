@@ -18,9 +18,9 @@ const NavBar = () => {
                     {click ? (<FaTimes size={25} style={{ color: '#ffffff' }} />)
                         : (<FaBars size={25} style={{ color: '#ffffff' }} />)}
                 </div>
-                <div className={click ? "nav-menu active" : "nav-menu"}>
+                <div className={click ? "navMenu active" : "navMenu"}>
                     {categoriasMenu.map(menu =>
-                        <Link key={menu} to={menu} className='nav-item' spy={true} smooth={true} offset={-40} duration={200} onClick={closeMenu} >{menu}</Link>
+                        <Link key={menu} to={menu} className='navItem' spy={true} smooth={true} offset={-40} duration={200} onClick={closeMenu} >{menu}</Link>
                     )}
                 </div>
             </nav>

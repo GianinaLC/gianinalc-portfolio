@@ -7,7 +7,7 @@
 }
 
 .cardItem {
-    background-color: var(--secondary-color-text)!important; 
+    background-color: var(--secondary-background-color)!important; /* bs trae su bg predefinido, por eso el important */
     color: var(--primary-color-text);
     font-weight: 200;
 }

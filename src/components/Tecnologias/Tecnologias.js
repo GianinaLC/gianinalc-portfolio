@@ -18,8 +18,8 @@ const Habilidades = () => {
         { id: 7, title: 'nodejs', icon: <FaNodeJs /> },
         { id: 8, title: 'git', icon: <FaGitAlt /> },
         { id: 9, title: 'github', icon: <FaGithub /> }
-
     ]
+
     AOS.init();
 
     return (

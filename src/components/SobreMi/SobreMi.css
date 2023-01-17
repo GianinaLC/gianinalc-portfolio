@@ -12,7 +12,7 @@
 }
 
 .contenedorSM div {
-    background-color: var(--secondary-color-text);
+    background-color: var(--secondary-background-color);
     border-radius: 10px;
     font-size: 1.3rem;
     font-family: var(--second-font);
@@ -23,9 +23,7 @@
 }
 
 @media screen and (max-width:978px){
-  .container1SM{
-    height: 100%;
-}
-
-    
+    .container1SM {
+        height: 100%;
+    }
 }

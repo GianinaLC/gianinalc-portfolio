@@ -36,10 +36,13 @@
    cursor: pointer;
 }
 
-.oculto {
-    display: none;
-}
-
-.visible{
-    display: block;
+@media screen and (max-width: 440px ){
+    .containerText div {
+        width: 300px;
+        max-height: 120px;
+        padding: 10px;
+    }
+    .containerText div p:not(:first-child){
+        display: none;
+    }
 }

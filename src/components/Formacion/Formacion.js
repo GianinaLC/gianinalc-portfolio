@@ -6,8 +6,8 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 
 const Formacion = () => {
-
     AOS.init();
+
     return (
         <section id='Formación' className='firstBgColor containerFormacion'>
             <Container fluid data-aos="fade-right" data-aos-duration="2000">
