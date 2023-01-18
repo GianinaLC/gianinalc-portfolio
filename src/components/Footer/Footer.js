@@ -1,6 +1,7 @@
 import React from 'react';
 import './Footer.css';
 import { FaGithubSquare, FaLinkedin } from 'react-icons/fa';
+import BtnToTop from '../BotonToTop/BotonToTop';
 
 const Footer = () => {
     return (
@@ -12,7 +13,7 @@ const Footer = () => {
                     <span className='footerIcon'><a href='https://www.linkedin.com/in/gianina-carranzani/'><FaLinkedin /></a></span>
                 </div>
             </div>
-
+            <BtnToTop />
             <p className='footerAutor'>2023 | Gianina Carranzani</p>
 
         </section>
