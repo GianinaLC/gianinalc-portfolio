@@ -1,0 +1,21 @@
+.btnUp{
+    position: fixed;
+    bottom: 60px;
+    right: 10px; 
+    background: none; 
+    border: none;
+    font-size: 50px;
+    color: var(--primary-color-text);
+    cursor: pointer;
+}
+
+.btnUp svg:hover{
+    opacity: 0.8;
+}
+
+@media screen and (max-width: 428px) {
+    .btnUp{
+        bottom: 110px;
+    }
+}
+
