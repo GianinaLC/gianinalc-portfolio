@@ -55,7 +55,21 @@
     color:#71f3d7c2;;
 }
 
+.header .navbar img {
+    display: none;
+}
+
 @media screen and (max-width:1024px) {
+
+    .header .navbar img {
+        display: block;
+        width: 45px;
+        padding: 5px;
+        height: auto;
+        position: absolute;
+        left: 0;
+    }
+
     .header {
         max-width: 100%;
         background-color: var(--secondary-background-color);
@@ -64,7 +78,6 @@
 
     .header .navbar {
         max-width: 100%;
-       
     }
 
     .hamburger {
@@ -74,9 +87,9 @@
     .navMenu {
         position: fixed;
         right: -100%;
-        top: 40px;
+        top: 50px;
         flex-direction: column;
-        background-color: var(--primary-background-color);
+        background-color: var(--secondary-background-color);
         width: 100%;
         height: 100%;
         z-index: 999;
