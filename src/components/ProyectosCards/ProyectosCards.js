@@ -31,7 +31,7 @@ const ProyectosCards = ({ img, title, id, description, url, github }) => {
                     <p>{title}</p>
                     <p>{description}</p>
                     <span className='p-2'><a href={github} target="_blank" rel="noreferrer"><BsGithub /></a></span>
-                    <span className='p-2'><a href={url} target="_blank" rel="noreferrer"> <BsBoxArrowUpRight /></a></span>
+                    <span className='p-2'><a href={url} target="_blank" rel="noreferrer"><BsBoxArrowUpRight /></a></span>
                 </div>
             </Card.ImgOverlay>
         </Card >
