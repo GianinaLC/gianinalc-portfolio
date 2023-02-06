@@ -4,7 +4,7 @@ import { FaDownload, FaGithub, FaLinkedin } from 'react-icons/fa';
 
 const BotonesInicio = () => {
     const botones = [
-        { id: 1, title: 'Descargar cv', icon: <FaDownload />, url: './assets/docs/CV-CarranzaniGianina-Frontend.pdf' },
+        { id: 1, title: 'Descargar cv', icon: <FaDownload />, url: './assets/docs/CV-Carranzani-Gianina-Dev-Frontend.pdf' },
         { id: 2, title: 'Github', icon: <FaGithub />, url: 'https://github.com/GianinaLC' },
         { id: 3, title: 'LinkedIn', icon: <FaLinkedin />, url: 'https://www.linkedin.com/in/gianina-carranzani/' }
     ]
