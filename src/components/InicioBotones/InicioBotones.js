@@ -12,7 +12,7 @@ const BotonesInicio = () => {
     return (
         <>
             {botones.map(btn =>
-                <button key={btn.id} className='btnInicio'><a href={btn.url} download='CV-CarranzaniGianina' ><span>{btn.icon}</span>{btn.title}</a> </button>
+                <button key={btn.id} className='btnInicio'><a href={btn.url} download='CV-Carranzani-Gianina-Dev-Frontend' ><span>{btn.icon}</span>{btn.title}</a> </button>
             )}
         </>
 
